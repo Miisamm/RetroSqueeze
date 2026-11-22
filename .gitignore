@@ -1,0 +1,13 @@
+# build output
+*.obj
+*.o
+*.res
+*.err
+*.map
+RETROSQ.EXE
+slimplay-test
+# per-PC settings (own player MAC - never share between PCs)
+RETROSQ.INI
+# Creative skin bitmaps are copyrighted - never commit
+skin/
+*.dll

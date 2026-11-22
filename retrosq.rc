@@ -1,0 +1,15 @@
+#include <windows.h>
+
+1 ICON "retrosq.ico"
+
+/* asked on the first start when no server answers the LAN broadcast */
+100 DIALOG 0, 0, 220, 70
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RetroSqueeze - music server"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT "No Lyrion Music Server answered on this network. Enter the address you open it with in the browser, e.g. 192.168.1.10:9000 (the CLI port works too):", -1, 7, 6, 206, 24
+    EDITTEXT 101, 7, 32, 206, 12, ES_AUTOHSCROLL
+    DEFPUSHBUTTON "OK", IDOK, 109, 50, 50, 14
+    PUSHBUTTON "Cancel", IDCANCEL, 163, 50, 50, 14
+END
