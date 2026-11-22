@@ -10,8 +10,8 @@ It does two things at once:
   LCD, transport, volume, repeat/shuffle, seek, the queue, and browsing your library
   (artists, albums, search), internet radio, podcasts and Spotify.
 - **A Squeezebox player itself**: the PC shows up in LMS as a player, like a Squeezebox or
-  squeezelite. Play to it from RetroSqueeze, from the LMS web UI, from phone apps, sync it
-  with other players, or use it as a Spotify Connect target (with the Spotty plugin).
+  squeezelite. Play to it from RetroSqueeze, from the LMS web UI or from phone apps, and
+  sync it with other players.
 
 The look is a nod to the Sound Blaster MIDI player of the mid 90s: 80 pixels high, no title
 bar, silver deck, black LCD. Click the bar key on the left to fold the browser away.
@@ -51,11 +51,8 @@ own player MAC address; two PCs with the same INI fight over one LMS player.
 ## Spotify
 
 RetroSqueeze plays Spotify through the LMS **Spotty** plugin (install it from the LMS plugin
-settings; needs Spotify Premium):
-
-- **Spotify tab** - browse and search Spotify inside RetroSqueeze. No Spotify app needed anywhere.
-- **Spotify Connect** - with Spotty's Connect option on, the PC appears as a device in any
-  Spotify app (phone, desktop, or the web player at open.spotify.com).
+settings; needs Spotify Premium): the **Spotify tab** browses and searches Spotify inside
+RetroSqueeze, no Spotify app needed anywhere.
 
 Without Spotty on the server the Spotify tab is simply not shown. The same goes for the
 Podcasts tab and the LMS Podcasts plugin. RetroSqueeze checks this at start and again
