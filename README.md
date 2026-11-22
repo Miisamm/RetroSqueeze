@@ -117,6 +117,10 @@ Remove the test player from LMS afterwards.
 
 RetroSqueeze is Copyright (C) 2026 Sandro Miisamm, licensed under the **GNU GPL v3 or later** (see `LICENSE`).
 
+Designed, tested and directed by Sandro Miisamm on real hardware (Pentium 200 MMX / Windows 98 SE
+up to Windows 11); the code was written together with **Claude** (Anthropic's AI model, via
+Claude Code) - protocol work, Win32/Watcom code, the dot-matrix LCD and the drawn keys.
+
 Third-party code included:
 
 - [stb_image](https://github.com/nothings/stb) v2.30 by Sean Barrett - public domain / MIT (JPEG covers)
